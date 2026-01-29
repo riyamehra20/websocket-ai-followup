@@ -60,10 +60,6 @@ uvicorn app:app --reload
 
 5. Open http://localhost:8000
 
-## 📸 Screenshots
-
-[Add screenshots here]
-
 ## 📄 License
 
 

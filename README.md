@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 3. Create `.env` file in backend folder
 ```
-GEMINI_API_KEY= AIzaSyCPwGROcNSMW5SnbtZqvroAnt0nnnswL4w
+
 ```
 
 4. Run server

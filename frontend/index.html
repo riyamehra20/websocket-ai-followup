@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Follow-up Questions</title>
+   <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Follow-up Chat</h1>
+        <p class="subtitle">Enter a sentence and get 3 AI-powered follow-up questions</p>
+        
+        <div id="chat-container">
+            <!-- Initial input -->
+            <div id="initial-section" class="section">
+                <textarea 
+                    id="initial-input" 
+                    placeholder="Enter your sentence... (e.g., 'I hate studying')"
+                    rows="3"
+                ></textarea>
+                <button id="launch-btn" onclick="launchChat()">🚀 Launch</button>
+            </div>
+            
+            <!-- Chat messages -->
+            <div id="messages"></div>
+            
+            <!-- Input for answers -->
+            <div id="answer-section" class="section hidden">
+                <input 
+                    type="text" 
+                    id="answer-input" 
+                    placeholder="Your answer..."
+                />
+                <button onclick="sendAnswer()">📤 Send</button>
+            </div>
+        </div>
+        
+        <div id="status" class="status"></div>
+    </div>
+    
+   <script src="/static/script.js"></script>
+</body>
+</html>

@@ -124,22 +124,11 @@ function addMessage(text, type, followupNumber = null) {
     const messagesDiv = document.getElementById('messages');
     const messageDiv = document.createElement('div');
     
-    if (type === 'user') {
-        messageDiv.className = 'message user-message';
-        messageDiv.textContent = text;
-    } else if (type === 'ai') {
-        messageDiv.className = 'message ai-message';
-        
-        const label = document.createElement('div');
-        label.className = 'followup-label';
-        label.textContent = `Follow-up #${followupNumber}`;
-        
-        messageDiv.appendChild(label);
-        messageDiv.appendChild(document.createTextNode(text));
-    } else if (type === 'final') {
-        messageDiv.className = 'message final-message';
-        messageDiv.textContent = '✨ ' + text + ' ✨';
-    }
+   if (type === 'ai' && number) {
+    messageElement.innerHTML = `<span class="followup-label">Follow-up #${number}</span>${text}`;
+} else {
+    messageElement.textContent = text;
+}
     
     messagesDiv.appendChild(messageDiv);
     messagesDiv.scrollTop = messagesDiv.scrollHeight;

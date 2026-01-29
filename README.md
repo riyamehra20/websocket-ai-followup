@@ -2,13 +2,13 @@
 
 Real-time AI-powered follow-up question generator using WebSocket and Google Gemini API.
 
-## 🔗 Live Demo
+##  Live Demo
 
-**🌐 Live Application:** [Coming Soon]
+** Live Application:** 
 
-**📂 GitHub Repository:** [Your GitHub Link]
+** GitHub Repository:** https://github.com/riyamehra20/websocket-ai-followup.git
 
-## ✨ Features
+##  Features
 
 - ✅ Real-time WebSocket communication
 - ✅ AI-generated follow-up questions using Google Gemini
@@ -16,7 +16,7 @@ Real-time AI-powered follow-up question generator using WebSocket and Google Gem
 - ✅ 3 dynamic follow-ups followed by completion message
 - ✅ Beautiful, responsive UI
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** FastAPI (Python)
 - **Frontend:** HTML, CSS, JavaScript
@@ -24,7 +24,7 @@ Real-time AI-powered follow-up question generator using WebSocket and Google Gem
 - **WebSocket:** Native WebSocket
 - **Deployment:** Render.com
 
-## 🚀 Local Setup
+## Local Setup
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ Real-time AI-powered follow-up question generator using WebSocket and Google Gem
 
 1. Clone repository
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/riyamehra20/websocket-ai-followup.git
 cd websocket-ai-followup
 ```
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 3. Create `.env` file in backend folder
 ```
-GEMINI_API_KEY=your_key_here
+GEMINI_API_KEY= AIzaSyCPwGROcNSMW5SnbtZqvroAnt0nnnswL4w
 ```
 
 4. Run server

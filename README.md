@@ -58,7 +58,7 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 
-5.http://127.0.0.1:8000
+5.http://127.0.0.1:8000/
 
 ## 📄 License
 
